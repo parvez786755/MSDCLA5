@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlavorJoy - Recipes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="yD:\221FA04427\MSD project 5\Screenshot 2024-09-22 124408.png" alt="FlavorJoy Logo" class="logo-image"> <!-- Replace 'your-logo-path.jpg' with the actual image path -->
+        </div>
+        <nav>
+            <ul>
+                <li><a href="D:\221FA04427\MSD project 5\Home.html">Home</a></li>
+                <li><a href="D:\221FA04427\MSD project 5\about.html">About Us</a></li>
+                <li><a href="D:\221FA04427\MSD project 5\contact.html">Contact</a></li>
+                <li>
+    
+            </ul>
+        </nav>
+    </header>
+        <!-- Main Content -->
+        <main>
+            <section class="hero">
+                <h2>Our Delicious Recipes</h2>
+                <p>Find the perfect recipe for any occasion!</p>
+            </section>
+    
+           <!-- Filter Section -->
+    <section class="filter-section">
+        <h3>Filter by:</h3>
+        <form action="search.html" method="GET">
+            <select name="meal-type">
+                <option value="all">All</option>
+                <optgroup label="Breakfast">
+                    <option value="pancakes">Pancakes</option>
+                    <option value="omelette">Omelette</option>
+                    <option value="smoothies">Smoothies</option>
+                    <option value="waffles">Waffles</option>
+                </optgroup>
+                <optgroup label="Lunch">
+                    <option value="salads">Salads</option>
+                    <option value="sandwiches">Sandwiches</option>
+                    <option value="pasta">Pasta</option>
+                    <option value="wraps">Wraps</option>
+                </optgroup>
+                <optgroup label="Dinner">
+                    <option value="steak">Steak</option>
+                    <option value="pizza">Pizza</option>
+                    <option value="stir-fry">Stir-Fry</option>
+                    <option value="tacos">Tacos</option>
+                </optgroup>
+                <optgroup label="Desserts">
+                    <option value="cake">Cake</option>
+                    <option value="cookies">Cookies</option>
+                    <option value="ice-cream">Ice Cream</option>
+                    <option value="brownies">Brownies</option>
+                </optgroup>
+            </select>
+            <button type="submit">Apply Filter</button>
+        </form>
+    </section>
+    
+            <!-- Recipe Grid -->
+            <section class="recipe-grid">
+                <!-- Example Recipe Item -->
+                <article class="recipe-item">
+                    <img src="D:\221FA04427\MSD project 5\nudels thay.png" alt="Recipe 1">
+                    <h4>Spicy Thai Noodles</h4>
+                    <p>A flavorful and spicy Thai noodle dish with vegetables.</p>
+                    <a href="recipe-details.html">View Recipe</a>
+                </article>
+    
+                <article class="recipe-item">
+                    <img src="D:\221FA04427\MSD project 5\garlic bread.png"alt="Recipe 2">
+                    <h4>Cheesy Garlic Bread</h4>
+                    <p>A delicious and easy-to-make garlic bread with melted cheese.</p>
+                    <a href="recipe-details.html">View Recipe</a>
+                </article>
+    
+                <!-- Add more recipe items here -->
+            </section>
+        </main>
+    <footer>
+        <p>&copy; 2024 FlavorJoy. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
